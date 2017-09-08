@@ -1,0 +1,58 @@
+.zion, .skills {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Great Vibes', cursive;
+}
+
+.zion {
+  min-height: 800px;
+  background-image: url("../../assets/zion1.jpg");
+}
+
+.skills {
+  background-image: url("../../assets/ferns.png");
+  text-align: center;
+}
+
+.skills p {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+}
+
+.skills p.resume-link {
+  cursor: pointer;
+}
+
+.zion > div {
+  padding-top: 350px;
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 15em;
+  text-align: center;
+}
+
+.about {
+  min-height: 500px;
+  width: 85%;
+  margin: 5% 7.5%;
+  line-height: 2em;
+  font-size: 2em;
+}
+
+.ext-links {
+  height: 100px;
+  background-color: aliceblue;
+}
+
+.ext-links div.container {
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  line-height: 100px;
+}
+
+.ext-links div > a {
+  text-decoration: none;
+}

@@ -1,0 +1,39 @@
+.navbar {
+  background-color: aliceblue;
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+
+.logo, .sunny-logo {
+  height: 100%;
+}
+
+.logo {
+  flex: 1;
+  margin-left: 3%;
+}
+
+.name {
+  flex: 8;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  line-height: 100px;
+  margin-top: 21px;
+}
+
+.right-nav {
+  flex: 1;
+  display: inherit;
+}
+
+
+
+.link {
+  flex: 1;
+  height: 100%;
+  cursor: pointer;
+  line-height: 100px;
+  width: 30%;
+  text-align: center;
+}
